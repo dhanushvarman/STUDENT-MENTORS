@@ -1,5 +1,6 @@
 var mongodb = require("mongodb");
 var mongoClient = mongodb.MongoClient;
+var dotenv = require('dotenv').config();
 let db;
 let connection;
 
